@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.tmp
+.DS_Store
+build/
+mamba_grid.zip
+my_results/

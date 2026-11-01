@@ -1,0 +1,6 @@
+# aggregation and plotting only
+numpy
+scipy
+matplotlib
+# running the experiment (Colab T4; see grid/README.md): torch==2.10.0+cu128, transformers>=5.16, datasets, einops,
+# mamba_ssm==2.3.2.post1, causal_conv1d==1.7.0 (installed by grid/install_env.py), MambaLRP (git clone at run time)
