@@ -2,9 +2,9 @@
 
 Course project, CS6886 *System Engineering for Deep Learning* (IIT Madras), Chirag (DA25M008).
 
-We remove whole channels from every block of a pretrained Mamba language model and ask **which importance score picks the best channels**:
+I remove whole channels from every block of a pretrained Mamba language model and ask **which importance score picks the best channels**:
 weight magnitude, gradient and activation scores, random, or relevance from [MambaLRP](https://github.com/FarnoushRJ/MambaLRP) (layer-wise relevance
-propagation for Mamba). We compare 16 selection methods on **mamba-130m** (147 runs) and **mamba-370m** (75 runs), 3 seeds each, fine-tune for
+propagation for Mamba). I compare 16 selection methods on **mamba-130m** (147 runs) and **mamba-370m** (75 runs), 3 seeds each, fine-tune for
 500 steps and measure WikiText-103 perplexity. Every difference is a paired percentage change with a 95 % confidence interval.
 
 ## Main results
