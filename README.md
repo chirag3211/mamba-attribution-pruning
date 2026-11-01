@@ -48,7 +48,7 @@ Caveats: two checkpoints of one model family, three seeds, in-domain fine-tuning
 ## Quick start: reproduce the tables and figures (no GPU)
 
 ```bash
-git clone https://github.com/<your-username>/mamba-attribution-pruning.git
+git clone https://github.com/chirag3211/mamba-attribution-pruning.git
 cd mamba-attribution-pruning
 pip install -r requirements.txt
 
